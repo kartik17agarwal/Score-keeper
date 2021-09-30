@@ -1,0 +1,98 @@
+body{
+display: flex;
+justify-content: center;
+}
+
+.masterDiv{
+    padding: 3rem 0;
+    width: 35%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h3{
+    margin: 0px;
+    padding: 10px 0px 10px 20px;
+    border-bottom: 2px solid gray;
+    margin-bottom: 30px;
+}
+
+.scores{
+    font-size: 3rem;
+    font-weight: bold;
+    padding-left: 1rem;
+    margin-bottom: 0.5em;
+}
+
+.scores>p{
+    font-size: 1.4rem;
+    margin: 0;
+    font-weight: normal;
+}
+
+.targetScore>span{
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-left: 1rem;
+
+}
+
+#target{
+    font-size: 1.5rem;
+    padding-left: 0.7rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    min-width: 5rem;
+    border-radius: 290486px;
+    width: 4rem;
+}
+
+button{
+    font-size: 1.3rem;
+    width: 100%;
+    padding: 0.7em 0em;
+    margin: 0;
+    border-radius: 4px;
+    border: none;
+}
+
+.controls{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.player1{
+    background-color: cyan;
+    cursor: pointer;
+}
+
+.player2{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.resetAll{
+    background-color: rgb(221, 124, 200);
+    cursor: pointer;
+}
+
+.winner {
+    color: green;
+}
+
+.looser {
+    color: red;
+}
+
+.opacity {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
